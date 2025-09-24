@@ -1,26 +1,44 @@
 # Project Brief 1: Resilience Testing with Chaos Engineering in Cloud-Native Systems
 
-## Applies to Students in: MSc Computer Science   
+**Applies to Students in**: MSc Computer Science   
 **Can be completed in**: 6 Weeks  
 **Supervisor**: Dr. Kakia Chatsiou
-
 **Prerequisites**: Students should be well versed in DevOps principles, Docker, Kubernetes, AWS Microservices
 
 ## Project Aim
 
 To explore and apply Chaos Engineering principles by simulating failures in a cloud-native application and evaluating its resilience using observability tools and fault injection frameworks.
 
+To design and implement a Chaos Engineering framework that simulates failures in a cloud-native application and evaluates its resilience, recovery time, and fault tolerance.
 
+## Your task
+1. Conduct literature review. Study the principles of Chaos Engineering (Netflix's Chaos Monkey, Gremlin, Chaos Toolkit). Review academic and industry papers on fault injection, resilience metrics, and distributed systems.
+2. Setup a mock/ simulation website/system. Deploy a microservices-based application (e.g., using Docker and Kubernetes). Use a cloud platform (AWS, Azure, GCP) or local Kubernetes cluster (e.g., Minikube or Kind).
+3. Define and track SLIs (e.g., response time, error rate) and SLOs. Measure resilience before applying the Chaos Tools
+4. Integrate the Chaos Engineering tools of your choice:
+- Chaos Monkey (for AWS)
+- Gremlin (commercial, but has free tier)
+- Chaos Mesh (Kubernetes-native)
+- LitmusChaos (open-source chaos framework)
+5. Think of some Failure Scenarios. Simulate various types of failures:
+- Network latency or partition
+- CPU/memory exhaustion
+- Pod/container crashes
+- Service unavailability
+- Disk I/O throttling
+6. Measure your system's resilience after Chaos Tools were applied. Use Prometheus + Grafana to monitor system health. Define and track SLIs (e.g., response time, error rate) and SLOs. Also measure MTTR (Mean Time to Recovery), Error budget consumption, Impact on user experience.
+7. Report observations from experiments and make recommendations. Analyze results and propose architectural or operational improvements. Discuss trade-offs between reliability and agility.
 
 ## Learning Outcomes
 
 By the end of this project, students will be able to:
 
-- Understand the theoretical foundations of Chaos Engineering.
+- Understand the theoretical foundations of Chaos Engineering and fault tolerance / resilience.
 - Deploy and manage cloud-native applications using container orchestration.
-- Integrate chaos tools to simulate real-world failure scenarios.
+- Integrate chaos tools to simulate real-world failure scenarios. Learn how to design experiments and interpret system behaviour.
 - Monitor system behaviour and evaluate resilience metrics.
 - Propose architectural improvements based on experimental findings.
+- Explore the intersection of DevOps, SRE, and cybersecurity.
 
 ## Background and Rationale
 
@@ -33,10 +51,10 @@ The rationale for this project lies in the growing need to understand and mitiga
 This project provides students with the opportunity to explore Chaos Engineering in a controlled, academic setting. It bridges theory and practice by combining fault injection techniques with observability tools, allowing students to measure key reliability metrics such as Mean Time to Recovery (MTTR), error rates, and service availability. 
 
 ## Related Literature
+- A. B. Mailewa, A. Akuthota and T. M. D. Mohottalalage, "A Review of Resilience Testing in Microservices Architectures: Implementing Chaos Engineering for Fault Tolerance and System Reliability," 2025 IEEE 15th Annual Computing and Communication Workshop and Conference (CCWC), Las Vegas, NV, USA, 2025, pp. 00236-00242, doi: 10.1109/CCWC62904.2025.10903891.
 
 
-
-## Potential Tools & Technologies
+## Potential Tools & Technologies that can be used
 
 - **Cloud Platform**: AWS / Azure / GCP / Local Kubernetes (Minikube, Kind)
 - **Containerisation**: Docker

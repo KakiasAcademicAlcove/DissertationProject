@@ -3,15 +3,14 @@
 ## Applies to Students in: MSc Computer Science   
 **Can be completed in**: 6 Weeks  
 **Supervisor**: Dr. Kakia Chatsiou
-**Prerequisites**: Students should be well versed in DevOps principles, Docker, Kubernetes, AWS Microservices
 
----
+**Prerequisites**: Students should be well versed in DevOps principles, Docker, Kubernetes, AWS Microservices
 
 ## Project Aim
 
 To explore and apply Chaos Engineering principles by simulating failures in a cloud-native application and evaluating its resilience using observability tools and fault injection frameworks.
 
----
+
 
 ## Learning Outcomes
 
@@ -23,7 +22,6 @@ By the end of this project, students will be able to:
 - Monitor system behaviour and evaluate resilience metrics.
 - Propose architectural improvements based on experimental findings.
 
----
 ## Background and Rationale
 
 Modern software systems are increasingly distributed, complex, and deployed in dynamic cloud-native environments. As organisations adopt microservices architectures, containerisation, and continuous delivery pipelines, ensuring system reliability becomes both more critical and more challenging.
@@ -32,8 +30,11 @@ Chaos Engineering has emerged as a proactive discipline aimed at improving syste
 
 The rationale for this project lies in the growing need to understand and mitigate the risks associated with unpredictable failures in production environments. Rather than waiting for outages to occur, Chaos Engineering enables teams to simulate real-world failure scenarios—such as network latency, resource exhaustion, or service crashes—and evaluate how well their systems recover.
 
-This project provides students with the opportunity to explore Chaos Engineering in a controlled, academic setting. It bridges theory and practice by combining fault injection techniques with observability tools, allowing students to measure key reliability metrics such as Mean Time to Recovery (MTTR), error rates, and service availability. The
---- 
+This project provides students with the opportunity to explore Chaos Engineering in a controlled, academic setting. It bridges theory and practice by combining fault injection techniques with observability tools, allowing students to measure key reliability metrics such as Mean Time to Recovery (MTTR), error rates, and service availability. 
+
+## Related Literature
+
+
 
 ## Potential Tools & Technologies
 
@@ -44,7 +45,6 @@ This project provides students with the opportunity to explore Chaos Engineering
 - **Monitoring**: Prometheus, Grafana
 - **Languages**: YAML, Python, Bash
 
----
 
 ## Suggested Sample Applications
 
@@ -53,7 +53,6 @@ This project provides students with the opportunity to explore Chaos Engineering
 - PetClinic Microservices – Veterinary clinic system.
 - Bookshelf App – Simple CRUD app.
 
----
 
 ## Suggested Datasets (Optional for Observability or Load Testing)
 
@@ -61,7 +60,6 @@ This project provides students with the opportunity to explore Chaos Engineering
 - Realistic Data: Use anonymized e-commerce datasets (e.g., UCI Online Retail) to simulate user behavior.
 - IoT or Sensor Data: For edge/fog scenarios, use Intel Lab Data.
 
----
 
 ## Tentative Breakdown of work
 

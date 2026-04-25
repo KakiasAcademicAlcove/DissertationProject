@@ -11,6 +11,7 @@ This is a a repository with material and code for the Dissertation Project modul
 | 4    | Writing your project proposal                    |            |
 | 5    | Planning and managing your project               |            |
 | 6    | Selecting a supervisor                           |            |
+
 | 7    | Version Control                                  |            |
 | 8    | Gathering requirements                           |            |
 | 9    | Selecting your dataset(s)                        |            |
@@ -26,6 +27,8 @@ This is a a repository with material and code for the Dissertation Project modul
 | 15   | Editing and Proofreading                         |            |
 | 16   | Submitting                                       |            |
 | 17   | Defending your dissertation (presentation)       |            |
+
+| 18    | Selecting your testing methods                  |            |
 
 
 ## Resources and Materials:
